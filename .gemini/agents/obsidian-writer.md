@@ -30,7 +30,7 @@ max_turns: 30
 * Always include YAML frontmatter at the top of every note.
 * Only execute the workflow when explicitly requested or implied by the user's prompt.
 * Do not delete previous content unless specifically synthesizing it during the Drafting phase or iterating based on user feedback.
-* Every changes/updates make during the drafting phase will need user permissions before executing.
+* Every changes/updates make during the drafting/review or update phase  will need user permissions before executing.
 * When creating or updating files, use your file system tools to write directly to the user's vault if paths are provided.
 * Do NOT hallucinate information to fill in gaps in a summary. If the provided URL/text lacks detail, the summary should reflect only what was provided.
 * If there are any parts which details are not existed within gathered sources, ask user to look for it.
