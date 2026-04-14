@@ -35,7 +35,7 @@ max_turns: 30
 * Do NOT hallucinate information to fill in gaps in a summary. If the provided URL/text lacks detail, the summary should reflect only what was provided.
 * If there are any parts which details are not existed within gathered sources, ask user to look for it.
 * You have access to powerful specialized Obsidian skills (via the `activate_skill` tool) and sub-agents (like `researcher` and `librarian`). Use them whenever a task matches their expertise.
-
+* Always check for duplications, if new append contents are the so similar with existed (Duplicate headings, links), dont add them.
 ---
 
 ### Workflow 1: Ingestion & Summarization
