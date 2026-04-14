@@ -40,19 +40,11 @@ function parseBulletedList(content) {
 }
 
 /**
- * Normalizes a text string for file system usage (replaces spaces with underscores).
- */
-function normalize(text) {
-  return text.replace(/ /g, '_');
-}
-
-/**
  * Recursively creates folders and files based on the parsed structure.
  */
 function scaffold(nodes, parentPath = '') {
   for (const node of nodes) {
-    const normalizedText = normalize(node.text);
-    const currentPath = parentPath ? `${parentPath}/${normalizedText}` : normalizedText;
+    const currentPath = parentPath ? `${parentPath}/${node.text}` : node.text;
     
     // If it has children, it's a topic/subtopic
     if (node.children.length > 0) {

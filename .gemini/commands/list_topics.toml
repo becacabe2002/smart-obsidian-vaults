@@ -1,0 +1,13 @@
+description = "Lists topics and subtopics based on a provided base directory and relative depth."
+prompt = '''
+!{
+  # Default to smart-obsidian-vaults if no --base_dir argument is provided
+  base_dir=$(echo "{{args}}" | sed -n 's/.*--base_dir \([^ ]\+\).*/\1/p' | head -n1)
+  base_dir=${base_dir:-"smart-obsidian-vaults"}
+  
+  level=$(echo "{{args}}" | sed -n 's/.*--level \([0-9]\+\).*/\1/p' | head -n1)
+  level=${level:-1}
+  
+  find "$base_dir" -maxdepth "$level" -not -path '*/.*'
+}
+'''
