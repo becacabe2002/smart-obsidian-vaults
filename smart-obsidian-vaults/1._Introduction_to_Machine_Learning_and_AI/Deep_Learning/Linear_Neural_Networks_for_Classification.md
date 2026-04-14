@@ -1,11 +1,9 @@
 ---
-tags:
-  - deep-learning
-  - machine-learning
-  - classification
-  - finished
-date: 2026-04-14T00:00:00.000Z
 status: finished
+tags:
+  - machine-learning
+  - deep-learning
+date: 2026-04-14T00:00:00.000Z
 ---
 # Linear Neural Networks for Classification
 

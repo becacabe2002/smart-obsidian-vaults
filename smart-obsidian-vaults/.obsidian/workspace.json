@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "beb9e86b87a1c630",
+        "id": "892cf2f1f22fca76",
         "type": "tabs",
         "children": [
           {
-            "id": "32e6532f30d8c470",
+            "id": "a0dd55bdec3811a3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1._Introduction_to_Machine_Learning_and_AI/Deep_Learning/Deep_Learning_Overview.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Deep_Learning_Overview"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 356.5
   },
   "right": {
     "id": "8e1ace5345178313",
@@ -176,8 +180,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "32e6532f30d8c470",
+  "active": "a0dd55bdec3811a3",
   "lastOpenFiles": [
+    "1._Introduction_to_Machine_Learning_and_AI/Deep_Learning/Convolutional_Neural_Networks.md",
+    "1._Introduction_to_Machine_Learning_and_AI/Deep_Learning/Deep_Learning_Overview.md",
+    "1._Introduction_to_Machine_Learning_and_AI/Deep_Learning/Multilayer_Perceptrons.md",
+    "1._Introduction_to_Machine_Learning_and_AI/Deep_Learning/Linear_Neural_Networks_for_Regression.md",
+    "1._Introduction_to_Machine_Learning_and_AI/Deep_Learning/Natural_Language_Processing.md",
+    "1._Introduction_to_Machine_Learning_and_AI/Deep_Learning/Linear_Neural_Networks_for_Classification.md",
+    "1._Introduction_to_Machine_Learning_and_AI/AI_vs._Machine_Learning_vs._Deep_Learning/AI_ML_DL_Overview.md",
+    "1._Introduction_to_Machine_Learning_and_AI/Deep_Learning/Hyperparameter_Optimization.md",
+    "Deep Learning.md",
+    "1._Introduction_to_Machine_Learning_and_AI/1_Introduction.md",
+    "1._Introduction_to_Machine_Learning_and_AI/Deep_Learning/Generative_Adversarial_Networks.md",
+    "Tag_Strategy.md",
     "Introduction to Machine Learning and AI/Deep Learning/Linear Neural Networks for Regression.md",
     "Introduction to Machine Learning and AI/Deep Learning/index.md",
     "Introduction to Machine Learning and AI/Deep Learning/Recurrent Neural Networks.md",
@@ -193,26 +209,14 @@
     "Introduction to Machine Learning and AI/Deep Learning/Linear Neural Networks for Classification.md",
     "Large Language Models (LLMs) and Transformers/Scaling and Emergent Behaviors/index.md",
     "Introduction to Machine Learning and AI/Deep Learning",
-    "MLOps and System Design/Inference Optimization/index.md",
     "MLOps and System Design/Inference Optimization",
-    "MLOps and System Design/Evaluation and Monitoring/index.md",
     "MLOps and System Design/Evaluation and Monitoring",
-    "MLOps and System Design/Pipelines (Feature, Training, Inference)/index.md",
     "MLOps and System Design/Pipelines (Feature, Training, Inference)",
-    "MLOps and System Design/MLOps and LLMOps/index.md",
     "MLOps and System Design/MLOps and LLMOps",
     "MLOps and System Design",
-    "Building AI Applications (AI Engineering)/Agents and Tool Use/index.md",
     "Building AI Applications (AI Engineering)/Agents and Tool Use",
-    "Building AI Applications (AI Engineering)/Retrieval-Augmented Generation (RAG)/index.md",
     "Building AI Applications (AI Engineering)/Retrieval-Augmented Generation (RAG)",
-    "Building AI Applications (AI Engineering)/Prompt Engineering/index.md",
     "Building AI Applications (AI Engineering)/Prompt Engineering",
-    "Building AI Applications (AI Engineering)",
-    "Model Training and Fine-Tuning/Preference Alignment/index.md",
-    "Model Training and Fine-Tuning/Parameter-Efficient Fine-Tuning (PEFT)/index.md",
-    "Model Training and Fine-Tuning/Supervised Fine-Tuning (SFT) and Instruction Tuning/index.md",
-    "Model Training and Fine-Tuning/Pretraining/index.md",
-    "Large Language Models (LLMs) and Transformers/Tokenization and Embeddings/index.md"
+    "Building AI Applications (AI Engineering)"
   ]
 }

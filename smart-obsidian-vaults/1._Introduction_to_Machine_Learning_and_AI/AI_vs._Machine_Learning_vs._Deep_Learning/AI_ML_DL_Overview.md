@@ -1,9 +1,11 @@
 ---
+status: finished
 tags:
-  - finished
+  - ai
+  - machine-learning
+  - deep-learning
 date: 2026-04-14T00:00:00.000Z
 source: 'https://cloud.google.com/discover/deep-learning-vs-machine-learning'
-status: finished
 ---
 # AI vs. Machine Learning vs. Deep Learning
 

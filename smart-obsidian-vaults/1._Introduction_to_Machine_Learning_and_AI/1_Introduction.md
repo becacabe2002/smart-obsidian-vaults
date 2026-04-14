@@ -1,17 +1,14 @@
 ---
-status:
-type: concept
+status: finished
 tags:
   - ai
-  - ml
-  - introduction
-  - finished
+  - machine-learning
 created: 2026-04-12
 project: smart-obsidian-vaults
 ---
 # 1. Introduction to Machine Learning and AI
 
-This section covers the fundamentals of Artificial Intelligence, Machine Learning, and Deep Learning, as well as the distinction between generative and discriminativegi modeling.
+This section covers the fundamentals of Artificial Intelligence, Machine Learning, and Deep Learning, as well as the distinction between generative and discriminative modeling.
 
 ## Sub-topics
 - [[AI_ML_DL_Overview|AI vs. Machine Learning vs. Deep Learning]]
