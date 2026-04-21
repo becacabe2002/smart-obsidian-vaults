@@ -11,6 +11,10 @@ date: 2025-05-22
 
 Convolutional Neural Networks (CNNs) are a specialized class of neural networks designed to process data with a known grid-like topology, most notably images. Unlike standard [[Multilayer_Perceptrons]] (MLPs), CNNs exploit spatial hierarchies and local patterns, making them the cornerstone of modern [[Computer_Vision]].
 
+> [!note]
+> In short terms, CNN is a NN but has a Conv layers, which consist of a set of filters in form of 2d matrices of numbers.
+> 
+
 ## Introduction
 The primary challenge with using MLPs for high-resolution images is the sheer number of parameters. For a $1000 \times 1000$ RGB image, a single hidden layer with 1000 units would require 3 billion weights. CNNs overcome this by leveraging two key inductive biases: **translation invariance** and **locality**.
 
